@@ -1,104 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming-Soon</title>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ชุมนุม SCI Rmutp Cyber&Dev Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-<body>
+    <link rel="icon" type="image/x-icon" href="/img/logo.ico">
+    <meta name="description"
+        content="เข้าถึงระบบ CTF Lab ของชุมนุม ข้อมูลชุมนุม คณะกรรมการบริหาร อาจารย์ที่ปรึกษาชุมนุม" />
+    <meta property="og:title" content="เว็บไซต์ชุมนุม SCI Rmutp Cyber&Dev Club">
+    <meta property="og:image" content="https://cyber-club.smo-sci-rmutp.org/img/meta.png">
+
+    <!-- Add AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <style>
-        @import url(https://fonts.googleapis.com/css?family=Montserrat);
-        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-        h1 {
-            margin: 0;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 4em;
-            color: #333;
-            -webkit-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-            -moz-text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-            text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.7);
-            word-spacing: 16px;
+        @font-face {
+            font-family: techFont;
+            src: url(/font/batmfa__.ttf);
         }
 
-        p {
-            font-family: "Chakra Petch", serif;
-            font-size: 1.4em;
-            font-weight: bold;
-            color: #222;
-            text-shadow: 0 0 40px #FFFFFF, 0 0 30px #FFFFFF, 0 0 20px #FFFFFF;
+        body {
+            font-family: 'Noto Sans Thai', sans-serif;
         }
 
-        footer {
-            font-family: "Chakra Petch", serif;
-        }
-
-        .container {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-            background: url('');
-            background-size: cover;
-        }
-
-        .wrapper {
-            width: 100%;
-            min-height: 100%;
-            height: auto;
-            display: table;
-        }
-
-        .content {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .item {
-            width: auto;
-            height: auto;
-            margin: 0 auto;
-            text-align: center;
-            padding: 8px;
-        }
-
-        @media only screen and (min-width: 800px) {
-            h1 {
-                font-size: 6em;
-            }
-
-            p {
-                font-size: 1.6em;
-            }
-        }
-
-        @media only screen and (max-width: 320px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            p {
-                font-size: 1.2em;
-            }
+        .techFont {
+            font-family: 'techFont';
         }
     </style>
-    <div class="container">
-        <div class="wrapper">
-            <div class="content">
-                <div class="item">
+</head>
 
-                    <img src="./img/logo.png" alt="" width="20%">
-                    <!-- Place your content here to have it be centered vertically and horizontally  -->
-                    <h1>COMING SOON</h1>
-                    <p>เว็บไซต์ชุมนุมอยู่ระหว่างการปรับปรุงและพัฒนา</p>
-                    <footer>2025 &copy ชุมนุม SCI-Rmutp Cyber&Dev Club</footer>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Hero Section -->
+    <section class="text-center py-20 bg-gray-900 text-white" data-aos="fade-up">
+        <img src="/img/logo-white.png" alt="โลโก้ชุมนุม" class="mx-auto w-40 mb-4">
+        <h1 class="text-4xl font-bold mb-2 techFont">SCI Rmutp Cyber&Dev Club</h1>
+        <div class="text-xl mb-6">
+            <span id="typed-text"></span>
+        </div>
+        <a href="https://forms.gle/UvMfMBU4GPnsu29d8"
+            class="bg-blue-600 px-6 py-2 rounded hover:bg-blue-700">สมัครเลย</a>
+    </section>
+
+    <!-- Detail Section -->
+    <section class="py-16 px-6">
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-blue-700 mb-4 techFont" data-aos="fade-up">Cyber Security
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-right">
+                    <div class="text-3xl mb-2">🧠</div>
+                    <h3 class="font-bold text-lg">เรียนรู้ทักษะจริง</h3>
+                    <p>ฝึกฝนทักษะด้าน Cyber Security อย่างเข้มข้น ผ่านสถานการณ์จำลองและเนื้อหาที่อัปเดตล่าสุด</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-up">
+                    <div class="text-3xl mb-2">🎯</div>
+                    <h3 class="font-bold text-lg">เตรียมพร้อมแข่งขัน</h3>
+                    <p>เตรียมตัวเข้าร่วมการแข่งขัน CTF และกิจกรรมต่างๆ ทั้งในและนอกสถาบัน</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-left">
+                    <div class="text-3xl mb-2">🔒</div>
+                    <h3 class="font-bold text-lg">เข้าใจภัยคุกคาม</h3>
+                    <p>เสริมความรู้เรื่องภัยไซเบอร์ที่เกิดขึ้นในโลกจริง พร้อมแนวทางการป้องกัน</p>
                 </div>
             </div>
         </div>
-    </div>
+        <div>
+            <h2 class="text-3xl font-bold text-center text-green-700 mb-4 techFont" data-aos="fade-up">Development</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-right">
+                    <div class="text-3xl mb-2">💻</div>
+                    <h3 class="font-bold text-lg">พัฒนาเว็บไซต์จริง</h3>
+                    <p>เรียนรู้การพัฒนาเว็บไซต์ตั้งแต่พื้นฐานจนสามารถนำไปใช้งานจริงได้</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-up">
+                    <div class="text-3xl mb-2">🚀</div>
+                    <h3 class="font-bold text-lg">มีผลงานจับต้องได้</h3>
+                    <p>มีโอกาสสร้างผลงานจริง ใช้ได้จริง และสามารถนำไปใส่ในพอร์ตสำหรับอนาคต</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow" data-aos="fade-left">
+                    <div class="text-3xl mb-2">🌐</div>
+                    <h3 class="font-bold text-lg">ใช้เทคโนโลยีทันสมัย</h3>
+                    <p>เรียนรู้เครื่องมือและเทคโนโลยีที่ใช้ในวงการจริง เช่น Git, React, Firebase เป็นต้น</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Board Section -->
+    <section class="py-16 px-6 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-up">คณะกรรมการบริหาร</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-6 text-center">
+            <div data-aos="fade-right">
+                <img src="/img/profile1.webp" alt="ประธาน" class="w-32 h-32 rounded-full mx-auto mb-2">
+                <h3 class="font-bold">นายธีรชานนท์ พวงเงิน</h3>
+                <p>ประธานชุมนุม</p>
+            </div>
+            <div data-aos="fade-up">
+                <img src="/img/profile2.webp" alt="รองประธาน" class="w-32 h-32 rounded-full mx-auto mb-2">
+                <h3 class="font-bold">นายวัทธิกร ถนอมรักษ์</h3>
+                <p>รองประธานชุมนุม</p>
+            </div>
+            <div data-aos="fade-left">
+                <img src="/img/profile2.webp" alt="เลขานุการ" class="w-32 h-32 rounded-full mx-auto mb-2">
+                <h3 class="font-bold">นายธนธรณ์ บานชื่น</h3>
+                <p>เลขานุการ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advisor Section -->
+    <section class="py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-up">อาจารย์ที่ปรึกษา</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-6 text-center">
+            <div data-aos="fade-right">
+                <img src="/img/advisor1.png" alt="อาจารย์ 1" class="w-32 h-32 rounded-full mx-auto mb-2">
+                <h3 class="font-bold">อาจารย์สุรเชษฐ์ เรืองประโคน</h3>
+                <p>อาจารย์ที่ปรึกษา</p>
+            </div>
+            <div data-aos="fade-left">
+                <img src="/img/advisor2.png" alt="อาจารย์ 2" class="w-32 h-32 rounded-full mx-auto mb-2">
+                <h3 class="font-bold">อาจารย์วีรวัฒน์ เชี่ยวปัญญานันท์</h3>
+                <p>อาจารย์ที่ปรึกษา</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="py-16 px-6 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-up">ผลงานของชุมนุม</h2>
+        <div id="project-list" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- Message Quote Section -->
+    <section class="py-20 px-6 bg-blue-800 text-white text-center">
+        <blockquote class="text-xl italic">“Cyber Security คือหัวใจของโลกยุคใหม่ และพวกเราคือผู้เริ่มต้นสร้างอนาคตนั้น”
+        </blockquote>
+        <p class="mt-4 font-bold">— ประธานชุมนุม</p>
+    </section>
+
+    <!-- CTF System Section -->
+    <section class="py-16 px-6">
+        <h2 class="text-3xl font-bold text-center mb-6" data-aos="fade-up">CTF System</h2>
+        <p class="text-center mb-6">เรามี Lab ฝึกฝน CTF สำหรับสมาชิก เพื่อเตรียมตัวลงสนามจริง</p>
+        <div class="text-center">
+            <a href="#" class="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700">เข้าสู่ Lab
+                (เฉพาะสมาชิกเท่านั้น)</a>
+        </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section class="py-16 px-6 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-up">ผู้สนับสนุน</h2>
+        <div id="sponsor-list" class="text-center text-gray-500 mb-4">ยังไม่มีผู้สนับสนุน</div>
+        <div class="text-center">
+            <a href="#" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">สนับสนุนชุมนุม</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8 px-6 text-center">
+        <p>&copy 2025 SCI Rmutp Cyber&Dev Club</p>
+        <p>ติดต่อเรา: Facebook | Instagram | Email</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        const typed = new Typed("#typed-text", {
+            strings: ["ชุมนุมด้านความมั่นคงปลอดภัยไซเบอร์และพัฒนาเว็บไซต์", "ฝึกจริง ใช้งานจริง สร้างอนาคตจริง"],
+            typeSpeed: 60,
+            backSpeed: 20,
+            loop: true,
+        });
+
+        // Initialize AOS
+        AOS.init();
+
+        // Load project JSON
+        fetch('/projects.json')
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById('project-list');
+                container.innerHTML = '';
+                data.forEach(project => {
+                    container.innerHTML += `
+              <div class="bg-white p-4 rounded shadow" data-aos="fade-up">
+                <img src="${project.image}" alt="${project.title}" class="mb-2 rounded">
+                <h3 class="font-bold">${project.title}</h3>
+                <p>${project.description}</p>
+                <div class="mt-2">
+                  ${project.tags.map(tag => `<span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">${tag}</span>`).join('')}
+                </div>
+              </div>
+            `;
+                });
+            });
+    </script>
 </body>
 
 </html>
